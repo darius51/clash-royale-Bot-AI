@@ -1,0 +1,652 @@
+2025-09-25 17:52:10.950 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:10.951 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] READING CONFIGURATION DATA
+2025-09-25 17:52:10.953 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:10.953 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Configuration file path: pyclashbot\emulators\configs\memu_config.json
+2025-09-25 17:52:10.957 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Absolute path: C:\Users\darius\Desktop\AIclash\pyclashbot\emulators\configs\memu_config.json
+2025-09-25 17:52:10.960 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Current working directory: C:\Users\darius\Desktop\AIclash
+2025-09-25 17:52:10.960 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Loading default Memu configuration values:
+2025-09-25 17:52:10.961 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Default configuration has 14 entries:
+2025-09-25 17:52:10.962 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default cpus: 2 (type: <class 'int'>)
+2025-09-25 17:52:10.963 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default memory: 2048 (type: <class 'int'>)
+2025-09-25 17:52:10.964 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default start_window_mode: 1 (type: <class 'int'>)
+2025-09-25 17:52:10.965 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default win_scaling_percent2: 100 (type: <class 'int'>)
+2025-09-25 17:52:10.966 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default is_customed_resolution: 1 (type: <class 'int'>)
+2025-09-25 17:52:10.966 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default resolution_width: 419 (type: <class 'int'>)
+2025-09-25 17:52:10.967 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default graphics_render_mode: 0 (type: <class 'int'>)
+2025-09-25 17:52:10.968 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default resolution_height: 633 (type: <class 'int'>)
+2025-09-25 17:52:10.968 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default vbox_dpi: 160 (type: <class 'int'>)
+2025-09-25 17:52:10.969 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default cpucap: 50 (type: <class 'int'>)
+2025-09-25 17:52:10.970 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default fps: 40 (type: <class 'int'>)
+2025-09-25 17:52:10.972 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default turbo_mode: 0 (type: <class 'int'>)
+2025-09-25 17:52:10.973 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default enable_audio: 0 (type: <class 'int'>)
+2025-09-25 17:52:10.975 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Default is_hide_toolbar: 1 (type: <class 'int'>)
+2025-09-25 17:52:10.982 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Default config copy duration: 0.000s
+2025-09-25 17:52:10.983 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] File existence check: False
+2025-09-25 17:52:10.985 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✗ CONFIGURATION FILE NOT FOUND
+2025-09-25 17:52:10.986 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Searched at: pyclashbot\emulators\configs\memu_config.json
+2025-09-25 17:52:10.987 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Using all default configuration values (14 settings)
+2025-09-25 17:52:10.988 | INFO     | controllers.memu_adapter:log:17 - Initalizing memu vm...
+2025-09-25 17:52:10.988 | INFO     | controllers.memu_adapter:log:17 - Checking for an existing valid vm...
+2025-09-25 17:52:12.223 | INFO     | controllers.memu_adapter:log:17 - [+] Found a valid vm: 0
+2025-09-25 17:52:12.224 | INFO     | controllers.memu_adapter:log:17 - Configuring the vm...
+2025-09-25 17:52:12.226 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:12.227 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] INITIALIZING CONFIGURE METHOD
+2025-09-25 17:52:12.228 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:12.228 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Method called with parameters:
+2025-09-25 17:52:12.229 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   self.vm_index: 0 (type: <class 'int'>)
+2025-09-25 17:52:12.230 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   self.render_mode: directx (type: <class 'str'>)
+2025-09-25 17:52:12.231 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   self.config keys: ['cpus', 'memory', 'start_window_mode', 'win_scaling_percent2', 'is_customed_resolution', 'resolution_width', 'graphics_render_mode', 'resolution_height', 'vbox_dpi', 'cpucap', 'fps', 'turbo_mode', 'enable_audio', 'is_hide_toolbar']
+2025-09-25 17:52:12.231 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   self.config length: 14
+2025-09-25 17:52:12.232 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Debug flags active:
+2025-09-25 17:52:12.233 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   debug_configure: True
+2025-09-25 17:52:12.234 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   debug_vm_ops: False
+2025-09-25 17:52:12.235 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   debug_language: False
+2025-09-25 17:52:12.236 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   debug_screen: True
+2025-09-25 17:52:12.237 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Current configuration data:
+2025-09-25 17:52:12.237 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   cpus: 2 (type: <class 'int'>)
+2025-09-25 17:52:12.238 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   memory: 2048 (type: <class 'int'>)
+2025-09-25 17:52:12.239 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   start_window_mode: 1 (type: <class 'int'>)
+2025-09-25 17:52:12.240 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   win_scaling_percent2: 100 (type: <class 'int'>)
+2025-09-25 17:52:12.241 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   is_customed_resolution: 1 (type: <class 'int'>)
+2025-09-25 17:52:12.241 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   resolution_width: 419 (type: <class 'int'>)
+2025-09-25 17:52:12.242 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   graphics_render_mode: 0 (type: <class 'int'>)
+2025-09-25 17:52:12.243 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   resolution_height: 633 (type: <class 'int'>)
+2025-09-25 17:52:12.244 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   vbox_dpi: 160 (type: <class 'int'>)
+2025-09-25 17:52:12.244 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   cpucap: 50 (type: <class 'int'>)
+2025-09-25 17:52:12.245 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   fps: 40 (type: <class 'int'>)
+2025-09-25 17:52:12.246 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   turbo_mode: 0 (type: <class 'int'>)
+2025-09-25 17:52:12.246 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   enable_audio: 0 (type: <class 'int'>)
+2025-09-25 17:52:12.247 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   is_hide_toolbar: 1 (type: <class 'int'>)
+2025-09-25 17:52:12.248 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:12.249 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] VALIDATING RENDER MODE PARAMETER
+2025-09-25 17:52:12.257 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:12.258 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Raw render_mode input: 'directx'
+2025-09-25 17:52:12.258 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] render_mode type: <class 'str'>
+2025-09-25 17:52:12.259 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Attempting to convert to lowercase string...
+2025-09-25 17:52:12.260 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting render_mode to string...
+2025-09-25 17:52:12.260 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] str() result: 'directx'
+2025-09-25 17:52:12.261 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Applying .lower() method...
+2025-09-25 17:52:12.262 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] .lower() result: 'directx'
+2025-09-25 17:52:12.263 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Checking if render_mode in ['opengl', 'directx']...
+2025-09-25 17:52:12.264 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   render_mode == 'opengl': False
+2025-09-25 17:52:12.264 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   render_mode == 'directx': True
+2025-09-25 17:52:12.265 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   render_mode in ['opengl', 'directx']: True
+2025-09-25 17:52:12.270 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ RENDER MODE VALIDATION PASSED
+2025-09-25 17:52:12.271 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Valid render mode: 'directx'
+2025-09-25 17:52:12.272 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ RENDER MODE PROCESSING COMPLETE
+2025-09-25 17:52:12.272 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Final render mode: 'directx'
+2025-09-25 17:52:12.273 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Render mode processing duration: 0.012s
+2025-09-25 17:52:12.274 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:12.275 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] CREATING WORKING CONFIGURATION COPY
+2025-09-25 17:52:12.276 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:12.277 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to create copy of self.config...
+2025-09-25 17:52:12.277 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Original config memory address: 2061743276544
+2025-09-25 17:52:12.278 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Working config memory address: 2061618111616
+2025-09-25 17:52:12.279 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Config copy duration: 0.000s
+2025-09-25 17:52:12.279 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Working config length: 14
+2025-09-25 17:52:12.280 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to override graphics_render_mode based on render_mode...
+2025-09-25 17:52:12.287 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Current graphics_render_mode: 0
+2025-09-25 17:52:12.287 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ RENDER MODE OVERRIDE: DirectX
+2025-09-25 17:52:12.288 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Old graphics_render_mode: 0
+2025-09-25 17:52:12.288 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   New graphics_render_mode: 1 (DirectX)
+2025-09-25 17:52:12.289 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:12.290 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] APPLYING CONFIGURATION SETTINGS TO VM
+2025-09-25 17:52:12.290 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:12.291 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Total settings to apply: 14
+2025-09-25 17:52:12.292 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Target VM index: 0
+2025-09-25 17:52:12.293 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to iterate through working_config items...
+2025-09-25 17:52:12.293 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:12.294 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 1/14: cpus
+2025-09-25 17:52:12.295 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:12.296 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'cpus' (type: <class 'str'>)
+2025-09-25 17:52:12.302 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 2 (type: <class 'int'>)
+2025-09-25 17:52:12.304 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:12.304 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '2'
+2025-09-25 17:52:12.305 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('cpus', '2', vm_index=0)
+2025-09-25 17:52:12.426 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET cpus = 2
+2025-09-25 17:52:12.426 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.121s
+2025-09-25 17:52:12.429 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 1
+2025-09-25 17:52:12.429 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:12.430 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 2/14: memory
+2025-09-25 17:52:12.431 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:12.432 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'memory' (type: <class 'str'>)
+2025-09-25 17:52:12.432 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 2048 (type: <class 'int'>)
+2025-09-25 17:52:12.433 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:12.434 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '2048'
+2025-09-25 17:52:12.434 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('memory', '2048', vm_index=0)
+2025-09-25 17:52:12.563 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET memory = 2048
+2025-09-25 17:52:12.564 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.128s
+2025-09-25 17:52:12.566 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 2
+2025-09-25 17:52:12.567 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:12.567 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 3/14: start_window_mode
+2025-09-25 17:52:12.568 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:12.569 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'start_window_mode' (type: <class 'str'>)
+2025-09-25 17:52:12.569 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 1 (type: <class 'int'>)
+2025-09-25 17:52:12.570 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:12.571 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '1'
+2025-09-25 17:52:12.571 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('start_window_mode', '1', vm_index=0)
+2025-09-25 17:52:12.704 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET start_window_mode = 1
+2025-09-25 17:52:12.704 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.132s
+2025-09-25 17:52:12.706 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 3
+2025-09-25 17:52:12.707 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:12.708 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 4/14: win_scaling_percent2
+2025-09-25 17:52:12.708 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:12.709 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'win_scaling_percent2' (type: <class 'str'>)
+2025-09-25 17:52:12.710 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 100 (type: <class 'int'>)
+2025-09-25 17:52:12.710 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:12.711 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '100'
+2025-09-25 17:52:12.712 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('win_scaling_percent2', '100', vm_index=0)
+2025-09-25 17:52:12.843 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET win_scaling_percent2 = 100
+2025-09-25 17:52:12.843 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.131s
+2025-09-25 17:52:12.846 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 4
+2025-09-25 17:52:12.847 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:12.848 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 5/14: is_customed_resolution
+2025-09-25 17:52:12.849 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:12.850 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'is_customed_resolution' (type: <class 'str'>)
+2025-09-25 17:52:12.851 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 1 (type: <class 'int'>)
+2025-09-25 17:52:12.852 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:12.853 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '1'
+2025-09-25 17:52:12.855 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('is_customed_resolution', '1', vm_index=0)
+2025-09-25 17:52:12.999 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET is_customed_resolution = 1
+2025-09-25 17:52:12.999 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.144s
+2025-09-25 17:52:13.002 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 5
+2025-09-25 17:52:13.003 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.003 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 6/14: resolution_width
+2025-09-25 17:52:13.004 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.005 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'resolution_width' (type: <class 'str'>)
+2025-09-25 17:52:13.006 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 419 (type: <class 'int'>)
+2025-09-25 17:52:13.007 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:13.008 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '419'
+2025-09-25 17:52:13.008 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('resolution_width', '419', vm_index=0)
+2025-09-25 17:52:13.138 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET resolution_width = 419
+2025-09-25 17:52:13.138 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.129s
+2025-09-25 17:52:13.141 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 6
+2025-09-25 17:52:13.142 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.142 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 7/14: graphics_render_mode
+2025-09-25 17:52:13.143 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.144 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'graphics_render_mode' (type: <class 'str'>)
+2025-09-25 17:52:13.146 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 1 (type: <class 'int'>)
+2025-09-25 17:52:13.147 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:13.148 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '1'
+2025-09-25 17:52:13.149 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('graphics_render_mode', '1', vm_index=0)
+2025-09-25 17:52:13.279 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET graphics_render_mode = 1
+2025-09-25 17:52:13.280 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.124s
+2025-09-25 17:52:13.282 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 7
+2025-09-25 17:52:13.283 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.283 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 8/14: resolution_height
+2025-09-25 17:52:13.284 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.285 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'resolution_height' (type: <class 'str'>)
+2025-09-25 17:52:13.285 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 633 (type: <class 'int'>)
+2025-09-25 17:52:13.286 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:13.287 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '633'
+2025-09-25 17:52:13.288 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('resolution_height', '633', vm_index=0)
+2025-09-25 17:52:13.435 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET resolution_height = 633
+2025-09-25 17:52:13.435 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.146s
+2025-09-25 17:52:13.437 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 8
+2025-09-25 17:52:13.438 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.439 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 9/14: vbox_dpi
+2025-09-25 17:52:13.439 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.440 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'vbox_dpi' (type: <class 'str'>)
+2025-09-25 17:52:13.441 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 160 (type: <class 'int'>)
+2025-09-25 17:52:13.442 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:13.442 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '160'
+2025-09-25 17:52:13.443 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('vbox_dpi', '160', vm_index=0)
+2025-09-25 17:52:13.576 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET vbox_dpi = 160
+2025-09-25 17:52:13.577 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.132s
+2025-09-25 17:52:13.579 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 9
+2025-09-25 17:52:13.579 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.580 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 10/14: cpucap
+2025-09-25 17:52:13.581 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.581 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'cpucap' (type: <class 'str'>)
+2025-09-25 17:52:13.582 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 50 (type: <class 'int'>)
+2025-09-25 17:52:13.583 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:13.584 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '50'
+2025-09-25 17:52:13.584 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('cpucap', '50', vm_index=0)
+2025-09-25 17:52:13.716 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✗ FAILED TO SET cpucap = 50
+2025-09-25 17:52:13.716 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Exception type: <class 'pymemuc.exceptions.PyMemucError'>
+2025-09-25 17:52:13.718 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Exception message: 'Failed to set VM configuration: ERROR: vm is running. Please close vm first.\n'
+2025-09-25 17:52:13.719 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting attempt duration: 0.130s
+2025-09-25 17:52:13.720 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Failed configs so far: 1
+2025-09-25 17:52:13.747 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.751 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 11/14: fps
+2025-09-25 17:52:13.751 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.752 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'fps' (type: <class 'str'>)
+2025-09-25 17:52:13.753 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 40 (type: <class 'int'>)
+2025-09-25 17:52:13.753 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:13.754 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '40'
+2025-09-25 17:52:13.755 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('fps', '40', vm_index=0)
+2025-09-25 17:52:13.886 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET fps = 40
+2025-09-25 17:52:13.887 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.130s
+2025-09-25 17:52:13.889 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 10
+2025-09-25 17:52:13.890 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.891 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 12/14: turbo_mode
+2025-09-25 17:52:13.891 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:13.892 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'turbo_mode' (type: <class 'str'>)
+2025-09-25 17:52:13.893 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 0 (type: <class 'int'>)
+2025-09-25 17:52:13.893 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:13.894 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '0'
+2025-09-25 17:52:13.895 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('turbo_mode', '0', vm_index=0)
+2025-09-25 17:52:14.027 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✗ FAILED TO SET turbo_mode = 0
+2025-09-25 17:52:14.028 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Exception type: <class 'pymemuc.exceptions.PyMemucError'>
+2025-09-25 17:52:14.030 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Exception message: 'Failed to set VM configuration: ERROR: invalid config parameter.\n'
+2025-09-25 17:52:14.031 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting attempt duration: 0.132s
+2025-09-25 17:52:14.031 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Failed configs so far: 2
+2025-09-25 17:52:14.034 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:14.035 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 13/14: enable_audio
+2025-09-25 17:52:14.035 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:14.036 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'enable_audio' (type: <class 'str'>)
+2025-09-25 17:52:14.037 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 0 (type: <class 'int'>)
+2025-09-25 17:52:14.038 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:14.039 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '0'
+2025-09-25 17:52:14.039 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('enable_audio', '0', vm_index=0)
+2025-09-25 17:52:14.228 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET enable_audio = 0
+2025-09-25 17:52:14.229 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.188s
+2025-09-25 17:52:14.231 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 11
+2025-09-25 17:52:14.231 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:14.232 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 14/14: is_hide_toolbar
+2025-09-25 17:52:14.233 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:14.234 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'is_hide_toolbar' (type: <class 'str'>)
+2025-09-25 17:52:14.235 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 1 (type: <class 'int'>)
+2025-09-25 17:52:14.235 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:14.236 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '1'
+2025-09-25 17:52:14.237 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('is_hide_toolbar', '1', vm_index=0)
+2025-09-25 17:52:14.383 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET is_hide_toolbar = 1
+2025-09-25 17:52:14.383 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.146s
+2025-09-25 17:52:14.385 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 12
+2025-09-25 17:52:14.386 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:14.387 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] CONFIGURATION APPLICATION SUMMARY
+2025-09-25 17:52:14.388 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:14.388 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Total configurations processed: 14
+2025-09-25 17:52:14.389 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configurations: 12
+2025-09-25 17:52:14.390 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Failed configurations: 2
+2025-09-25 17:52:14.391 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Success rate: 85.7%
+2025-09-25 17:52:14.391 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Total application duration: 2.094s
+2025-09-25 17:52:14.392 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Average time per setting: 0.150s
+2025-09-25 17:52:14.392 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:14.393 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING VM LANGUAGE TO ENGLISH
+2025-09-25 17:52:14.394 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:14.401 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call self._set_vm_language()
+2025-09-25 17:52:17.912 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET VM LANGUAGE TO ENGLISH
+2025-09-25 17:52:17.912 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Language setting duration: 3.509s
+2025-09-25 17:52:17.916 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:17.917 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING VM SCREEN SIZE WITH RETRY MECHANISM
+2025-09-25 17:52:17.918 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:17.919 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Target screen size: 419x633
+2025-09-25 17:52:17.919 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Retry attempts: 3
+2025-09-25 17:52:17.920 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:17.921 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SCREEN SIZE ATTEMPT 1/3
+2025-09-25 17:52:17.924 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:17.924 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: self._set_screen_size(419, 633)
+2025-09-25 17:52:30.648 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SCREEN SIZE ATTEMPT 1 SUCCESSFUL
+2025-09-25 17:52:30.649 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Attempt duration: 12.723s
+2025-09-25 17:52:30.652 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful attempts so far: 1
+2025-09-25 17:52:30.653 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:30.654 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SCREEN SIZE ATTEMPT 2/3
+2025-09-25 17:52:30.656 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:30.657 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: self._set_screen_size(419, 633)
+2025-09-25 17:52:31.007 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SCREEN SIZE ATTEMPT 2 SUCCESSFUL
+2025-09-25 17:52:31.007 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Attempt duration: 0.349s
+2025-09-25 17:52:31.009 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful attempts so far: 2
+2025-09-25 17:52:31.011 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:31.012 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SCREEN SIZE ATTEMPT 3/3
+2025-09-25 17:52:31.012 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:31.013 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: self._set_screen_size(419, 633)
+2025-09-25 17:52:31.301 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SCREEN SIZE ATTEMPT 3 SUCCESSFUL
+2025-09-25 17:52:31.302 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Attempt duration: 0.287s
+2025-09-25 17:52:31.304 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful attempts so far: 3
+2025-09-25 17:52:31.305 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:31.306 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SCREEN SIZE SETTING SUMMARY
+2025-09-25 17:52:31.306 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:31.307 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Total attempts: 3
+2025-09-25 17:52:31.308 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful attempts: 3
+2025-09-25 17:52:31.309 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Failed attempts: 0
+2025-09-25 17:52:31.310 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Success rate: 100.0%
+2025-09-25 17:52:31.310 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Total screen size duration: 13.385s
+2025-09-25 17:52:31.311 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:31.312 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] COMPLETE CONFIGURATION METHOD SUMMARY
+2025-09-25 17:52:31.313 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:31.313 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] VM Index: 0
+2025-09-25 17:52:31.314 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Final render mode: directx
+2025-09-25 17:52:31.315 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Configuration settings applied: 12/14
+2025-09-25 17:52:31.316 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Language setting: SUCCESS
+2025-09-25 17:52:31.316 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Screen size attempts: 3/3
+2025-09-25 17:52:31.318 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Total configuration time: 19.051s
+2025-09-25 17:52:31.318 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:31.319 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] VM CONFIGURATION COMPLETE
+2025-09-25 17:52:31.320 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:31.321 | INFO     | controllers.memu_adapter:log:17 - Booting the vm...
+2025-09-25 17:52:31.322 | INFO     | controllers.memu_adapter:log:17 - Stopping all MEmu processes...
+2025-09-25 17:52:31.902 | INFO     | controllers.memu_adapter:log:17 - All MEmu processes stopped
+2025-09-25 17:52:31.903 | INFO     | controllers.memu_adapter:log:17 - Configuring VM settings...
+2025-09-25 17:52:31.906 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:31.907 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] INITIALIZING CONFIGURE METHOD
+2025-09-25 17:52:31.908 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:31.909 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Method called with parameters:
+2025-09-25 17:52:31.910 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   self.vm_index: 0 (type: <class 'int'>)
+2025-09-25 17:52:31.911 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   self.render_mode: directx (type: <class 'str'>)
+2025-09-25 17:52:31.912 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   self.config keys: ['cpus', 'memory', 'start_window_mode', 'win_scaling_percent2', 'is_customed_resolution', 'resolution_width', 'graphics_render_mode', 'resolution_height', 'vbox_dpi', 'cpucap', 'fps', 'turbo_mode', 'enable_audio', 'is_hide_toolbar']
+2025-09-25 17:52:31.913 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   self.config length: 14
+2025-09-25 17:52:31.915 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Debug flags active:
+2025-09-25 17:52:31.923 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   debug_configure: True
+2025-09-25 17:52:31.928 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   debug_vm_ops: False
+2025-09-25 17:52:31.928 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   debug_language: False
+2025-09-25 17:52:31.929 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   debug_screen: True
+2025-09-25 17:52:31.930 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Current configuration data:
+2025-09-25 17:52:31.935 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   cpus: 2 (type: <class 'int'>)
+2025-09-25 17:52:31.936 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   memory: 2048 (type: <class 'int'>)
+2025-09-25 17:52:31.937 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   start_window_mode: 1 (type: <class 'int'>)
+2025-09-25 17:52:31.946 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   win_scaling_percent2: 100 (type: <class 'int'>)
+2025-09-25 17:52:31.949 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   is_customed_resolution: 1 (type: <class 'int'>)
+2025-09-25 17:52:31.951 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   resolution_width: 419 (type: <class 'int'>)
+2025-09-25 17:52:31.952 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   graphics_render_mode: 0 (type: <class 'int'>)
+2025-09-25 17:52:31.953 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   resolution_height: 633 (type: <class 'int'>)
+2025-09-25 17:52:31.955 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   vbox_dpi: 160 (type: <class 'int'>)
+2025-09-25 17:52:31.956 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   cpucap: 50 (type: <class 'int'>)
+2025-09-25 17:52:31.957 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   fps: 40 (type: <class 'int'>)
+2025-09-25 17:52:31.958 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   turbo_mode: 0 (type: <class 'int'>)
+2025-09-25 17:52:31.959 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   enable_audio: 0 (type: <class 'int'>)
+2025-09-25 17:52:31.961 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   is_hide_toolbar: 1 (type: <class 'int'>)
+2025-09-25 17:52:31.962 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:31.970 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] VALIDATING RENDER MODE PARAMETER
+2025-09-25 17:52:31.971 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:31.972 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Raw render_mode input: 'directx'
+2025-09-25 17:52:31.973 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] render_mode type: <class 'str'>
+2025-09-25 17:52:31.974 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Attempting to convert to lowercase string...
+2025-09-25 17:52:31.975 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting render_mode to string...
+2025-09-25 17:52:31.976 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] str() result: 'directx'
+2025-09-25 17:52:31.977 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Applying .lower() method...
+2025-09-25 17:52:31.978 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] .lower() result: 'directx'
+2025-09-25 17:52:31.983 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Checking if render_mode in ['opengl', 'directx']...
+2025-09-25 17:52:31.983 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   render_mode == 'opengl': False
+2025-09-25 17:52:31.984 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   render_mode == 'directx': True
+2025-09-25 17:52:31.985 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   render_mode in ['opengl', 'directx']: True
+2025-09-25 17:52:31.986 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ RENDER MODE VALIDATION PASSED
+2025-09-25 17:52:31.987 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Valid render mode: 'directx'
+2025-09-25 17:52:31.988 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ RENDER MODE PROCESSING COMPLETE
+2025-09-25 17:52:31.989 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Final render mode: 'directx'
+2025-09-25 17:52:31.990 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Render mode processing duration: 0.013s
+2025-09-25 17:52:31.991 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:31.991 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] CREATING WORKING CONFIGURATION COPY
+2025-09-25 17:52:31.992 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:31.999 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to create copy of self.config...
+2025-09-25 17:52:32.000 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Original config memory address: 2061743276544
+2025-09-25 17:52:32.002 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Working config memory address: 2061587303168
+2025-09-25 17:52:32.003 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Config copy duration: 0.000s
+2025-09-25 17:52:32.003 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Working config length: 14
+2025-09-25 17:52:32.004 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to override graphics_render_mode based on render_mode...
+2025-09-25 17:52:32.005 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Current graphics_render_mode: 0
+2025-09-25 17:52:32.006 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ RENDER MODE OVERRIDE: DirectX
+2025-09-25 17:52:32.058 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   Old graphics_render_mode: 0
+2025-09-25 17:52:32.121 | INFO     | controllers.memu_adapter:log:17 - [CONFIG]   New graphics_render_mode: 1 (DirectX)
+2025-09-25 17:52:32.123 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:32.124 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] APPLYING CONFIGURATION SETTINGS TO VM
+2025-09-25 17:52:32.125 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:32.126 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Total settings to apply: 14
+2025-09-25 17:52:32.128 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Target VM index: 0
+2025-09-25 17:52:32.129 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to iterate through working_config items...
+2025-09-25 17:52:32.132 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:32.133 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 1/14: cpus
+2025-09-25 17:52:32.134 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:32.135 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'cpus' (type: <class 'str'>)
+2025-09-25 17:52:32.136 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 2 (type: <class 'int'>)
+2025-09-25 17:52:32.143 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:32.145 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '2'
+2025-09-25 17:52:32.146 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('cpus', '2', vm_index=0)
+2025-09-25 17:52:32.363 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET cpus = 2
+2025-09-25 17:52:32.364 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.216s
+2025-09-25 17:52:32.366 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 1
+2025-09-25 17:52:32.368 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:32.368 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 2/14: memory
+2025-09-25 17:52:32.369 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:32.370 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'memory' (type: <class 'str'>)
+2025-09-25 17:52:32.371 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 2048 (type: <class 'int'>)
+2025-09-25 17:52:32.372 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:32.372 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '2048'
+2025-09-25 17:52:32.373 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('memory', '2048', vm_index=0)
+2025-09-25 17:52:32.563 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET memory = 2048
+2025-09-25 17:52:32.564 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.189s
+2025-09-25 17:52:32.568 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 2
+2025-09-25 17:52:32.570 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:32.572 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 3/14: start_window_mode
+2025-09-25 17:52:32.573 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:32.574 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'start_window_mode' (type: <class 'str'>)
+2025-09-25 17:52:32.575 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 1 (type: <class 'int'>)
+2025-09-25 17:52:32.576 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:32.577 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '1'
+2025-09-25 17:52:32.578 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('start_window_mode', '1', vm_index=0)
+2025-09-25 17:52:32.766 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET start_window_mode = 1
+2025-09-25 17:52:32.767 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.186s
+2025-09-25 17:52:32.773 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 3
+2025-09-25 17:52:32.776 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:32.777 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 4/14: win_scaling_percent2
+2025-09-25 17:52:32.779 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:32.780 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'win_scaling_percent2' (type: <class 'str'>)
+2025-09-25 17:52:32.782 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 100 (type: <class 'int'>)
+2025-09-25 17:52:32.783 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:32.784 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '100'
+2025-09-25 17:52:32.785 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('win_scaling_percent2', '100', vm_index=0)
+2025-09-25 17:52:32.964 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET win_scaling_percent2 = 100
+2025-09-25 17:52:32.964 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.172s
+2025-09-25 17:52:32.967 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 4
+2025-09-25 17:52:32.969 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:32.969 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 5/14: is_customed_resolution
+2025-09-25 17:52:32.970 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:32.971 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'is_customed_resolution' (type: <class 'str'>)
+2025-09-25 17:52:32.971 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 1 (type: <class 'int'>)
+2025-09-25 17:52:32.972 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:32.972 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '1'
+2025-09-25 17:52:32.973 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('is_customed_resolution', '1', vm_index=0)
+2025-09-25 17:52:33.138 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET is_customed_resolution = 1
+2025-09-25 17:52:33.138 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.163s
+2025-09-25 17:52:33.140 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 5
+2025-09-25 17:52:33.142 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:33.143 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 6/14: resolution_width
+2025-09-25 17:52:33.143 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:33.144 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'resolution_width' (type: <class 'str'>)
+2025-09-25 17:52:33.145 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 419 (type: <class 'int'>)
+2025-09-25 17:52:33.145 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:33.146 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '419'
+2025-09-25 17:52:33.147 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('resolution_width', '419', vm_index=0)
+2025-09-25 17:52:33.309 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET resolution_width = 419
+2025-09-25 17:52:33.310 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.162s
+2025-09-25 17:52:33.312 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 6
+2025-09-25 17:52:33.313 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:33.314 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 7/14: graphics_render_mode
+2025-09-25 17:52:33.315 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:33.315 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'graphics_render_mode' (type: <class 'str'>)
+2025-09-25 17:52:33.316 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 1 (type: <class 'int'>)
+2025-09-25 17:52:33.317 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:33.318 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '1'
+2025-09-25 17:52:33.318 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('graphics_render_mode', '1', vm_index=0)
+2025-09-25 17:52:33.481 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET graphics_render_mode = 1
+2025-09-25 17:52:33.481 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.163s
+2025-09-25 17:52:33.483 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 7
+2025-09-25 17:52:33.486 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:33.486 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 8/14: resolution_height
+2025-09-25 17:52:33.487 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:33.488 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'resolution_height' (type: <class 'str'>)
+2025-09-25 17:52:33.488 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 633 (type: <class 'int'>)
+2025-09-25 17:52:33.489 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:33.490 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '633'
+2025-09-25 17:52:33.490 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('resolution_height', '633', vm_index=0)
+2025-09-25 17:52:33.663 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET resolution_height = 633
+2025-09-25 17:52:33.664 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.171s
+2025-09-25 17:52:33.670 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 8
+2025-09-25 17:52:33.672 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:33.674 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 9/14: vbox_dpi
+2025-09-25 17:52:33.676 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:33.678 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'vbox_dpi' (type: <class 'str'>)
+2025-09-25 17:52:33.680 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 160 (type: <class 'int'>)
+2025-09-25 17:52:33.682 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:33.687 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '160'
+2025-09-25 17:52:33.688 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('vbox_dpi', '160', vm_index=0)
+2025-09-25 17:52:33.865 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET vbox_dpi = 160
+2025-09-25 17:52:33.866 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.176s
+2025-09-25 17:52:33.869 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 9
+2025-09-25 17:52:33.870 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:33.871 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 10/14: cpucap
+2025-09-25 17:52:33.872 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:33.873 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'cpucap' (type: <class 'str'>)
+2025-09-25 17:52:33.874 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 50 (type: <class 'int'>)
+2025-09-25 17:52:33.875 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:33.876 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '50'
+2025-09-25 17:52:33.877 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('cpucap', '50', vm_index=0)
+2025-09-25 17:52:34.058 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET cpucap = 50
+2025-09-25 17:52:34.059 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.180s
+2025-09-25 17:52:34.064 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 10
+2025-09-25 17:52:34.066 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:34.068 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 11/14: fps
+2025-09-25 17:52:34.069 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:34.071 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'fps' (type: <class 'str'>)
+2025-09-25 17:52:34.073 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 40 (type: <class 'int'>)
+2025-09-25 17:52:34.074 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:34.075 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '40'
+2025-09-25 17:52:34.076 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('fps', '40', vm_index=0)
+2025-09-25 17:52:34.264 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET fps = 40
+2025-09-25 17:52:34.266 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.188s
+2025-09-25 17:52:34.275 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 11
+2025-09-25 17:52:34.278 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:34.282 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 12/14: turbo_mode
+2025-09-25 17:52:34.284 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:34.286 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'turbo_mode' (type: <class 'str'>)
+2025-09-25 17:52:34.287 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 0 (type: <class 'int'>)
+2025-09-25 17:52:34.288 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:34.289 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '0'
+2025-09-25 17:52:34.290 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('turbo_mode', '0', vm_index=0)
+2025-09-25 17:52:34.465 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET turbo_mode = 0
+2025-09-25 17:52:34.466 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.175s
+2025-09-25 17:52:34.469 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 12
+2025-09-25 17:52:34.470 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:34.471 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 13/14: enable_audio
+2025-09-25 17:52:34.472 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:34.473 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'enable_audio' (type: <class 'str'>)
+2025-09-25 17:52:34.475 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 0 (type: <class 'int'>)
+2025-09-25 17:52:34.476 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:34.477 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '0'
+2025-09-25 17:52:34.478 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('enable_audio', '0', vm_index=0)
+2025-09-25 17:52:34.652 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET enable_audio = 0
+2025-09-25 17:52:34.652 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.173s
+2025-09-25 17:52:34.654 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 13
+2025-09-25 17:52:34.656 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:34.657 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING 14/14: is_hide_toolbar
+2025-09-25 17:52:34.658 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:34.658 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Key: 'is_hide_toolbar' (type: <class 'str'>)
+2025-09-25 17:52:34.659 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Value: 1 (type: <class 'int'>)
+2025-09-25 17:52:34.660 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Converting value to string for PyMemuc...
+2025-09-25 17:52:34.660 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] String value: '1'
+2025-09-25 17:52:34.661 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: pmc.set_configuration_vm('is_hide_toolbar', '1', vm_index=0)
+2025-09-25 17:52:34.823 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET is_hide_toolbar = 1
+2025-09-25 17:52:34.823 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Setting duration: 0.162s
+2025-09-25 17:52:34.825 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configs so far: 14
+2025-09-25 17:52:34.827 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:34.828 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] CONFIGURATION APPLICATION SUMMARY
+2025-09-25 17:52:34.828 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:34.829 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Total configurations processed: 14
+2025-09-25 17:52:34.830 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful configurations: 14
+2025-09-25 17:52:34.830 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Failed configurations: 0
+2025-09-25 17:52:34.831 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Success rate: 100.0%
+2025-09-25 17:52:34.832 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Total application duration: 2.695s
+2025-09-25 17:52:34.832 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Average time per setting: 0.192s
+2025-09-25 17:52:34.833 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:34.834 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING VM LANGUAGE TO ENGLISH
+2025-09-25 17:52:34.838 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:34.839 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call self._set_vm_language()
+2025-09-25 17:52:36.716 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SUCCESSFULLY SET VM LANGUAGE TO ENGLISH
+2025-09-25 17:52:36.721 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Language setting duration: 1.876s
+2025-09-25 17:52:36.727 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:36.730 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SETTING VM SCREEN SIZE WITH RETRY MECHANISM
+2025-09-25 17:52:36.742 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:36.743 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Target screen size: 419x633
+2025-09-25 17:52:36.744 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Retry attempts: 3
+2025-09-25 17:52:36.744 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:36.746 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SCREEN SIZE ATTEMPT 1/3
+2025-09-25 17:52:36.746 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:36.747 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: self._set_screen_size(419, 633)
+2025-09-25 17:52:36.864 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SCREEN SIZE ATTEMPT 1 SUCCESSFUL
+2025-09-25 17:52:36.864 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Attempt duration: 0.116s
+2025-09-25 17:52:36.866 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful attempts so far: 1
+2025-09-25 17:52:36.866 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:36.868 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SCREEN SIZE ATTEMPT 2/3
+2025-09-25 17:52:36.869 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:36.869 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: self._set_screen_size(419, 633)
+2025-09-25 17:52:36.991 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SCREEN SIZE ATTEMPT 2 SUCCESSFUL
+2025-09-25 17:52:36.991 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Attempt duration: 0.120s
+2025-09-25 17:52:36.993 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful attempts so far: 2
+2025-09-25 17:52:36.995 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:36.995 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SCREEN SIZE ATTEMPT 3/3
+2025-09-25 17:52:36.996 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] -------------------------------------------------------
+2025-09-25 17:52:36.997 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] About to call: self._set_screen_size(419, 633)
+2025-09-25 17:52:37.125 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] ✓ SCREEN SIZE ATTEMPT 3 SUCCESSFUL
+2025-09-25 17:52:37.126 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Attempt duration: 0.127s
+2025-09-25 17:52:37.131 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful attempts so far: 3
+2025-09-25 17:52:37.132 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:37.134 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] SCREEN SIZE SETTING SUMMARY
+2025-09-25 17:52:37.136 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:37.137 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Total attempts: 3
+2025-09-25 17:52:37.139 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Successful attempts: 3
+2025-09-25 17:52:37.140 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Failed attempts: 0
+2025-09-25 17:52:37.142 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Success rate: 100.0%
+2025-09-25 17:52:37.144 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Total screen size duration: 0.388s
+2025-09-25 17:52:37.146 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:37.156 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] COMPLETE CONFIGURATION METHOD SUMMARY
+2025-09-25 17:52:37.157 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:37.159 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] VM Index: 0
+2025-09-25 17:52:37.161 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Final render mode: directx
+2025-09-25 17:52:37.162 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Configuration settings applied: 14/14
+2025-09-25 17:52:37.163 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Language setting: SUCCESS
+2025-09-25 17:52:37.165 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Screen size attempts: 3/3
+2025-09-25 17:52:37.165 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] Total configuration time: 5.171s
+2025-09-25 17:52:37.166 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:37.167 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] VM CONFIGURATION COMPLETE
+2025-09-25 17:52:37.168 | INFO     | controllers.memu_adapter:log:17 - [CONFIG] =======================================================
+2025-09-25 17:52:37.169 | INFO     | controllers.memu_adapter:log:17 - VM configuration complete
+2025-09-25 17:52:37.169 | INFO     | controllers.memu_adapter:log:17 - Starting emulator...
+2025-09-25 17:52:49.493 | INFO     | controllers.memu_adapter:log:17 - Skipping MEmu ads...
+2025-09-25 17:52:54.038 | INFO     | controllers.memu_adapter:log:17 - [RESTART] =====================================================
+2025-09-25 17:52:54.038 | INFO     | controllers.memu_adapter:log:17 - [RESTART] STEP 5: VALIDATING SCREEN SIZE
+2025-09-25 17:52:54.040 | INFO     | controllers.memu_adapter:log:17 - [RESTART] =====================================================
+2025-09-25 17:52:54.042 | INFO     | controllers.memu_adapter:log:17 - Validating screen size...
+2025-09-25 17:52:54.043 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] =======================================================
+2025-09-25 17:52:54.044 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] CHECKING VM SCREEN SIZE
+2025-09-25 17:52:54.045 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] =======================================================
+2025-09-25 17:52:54.046 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Target VM index: 0
+2025-09-25 17:52:54.047 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Expected dimensions: 419x633
+2025-09-25 17:52:54.048 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Method: Take screenshot and validate dimensions
+2025-09-25 17:52:54.048 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Step 1: Pressing home key to prepare for screen size check...
+2025-09-25 17:52:54.050 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] About to call: pmc.trigger_keystroke_vm('home', vm_index=0)
+2025-09-25 17:52:54.050 | INFO     | controllers.memu_adapter:log:17 - Pressing home key to prepare for screen size check...
+2025-09-25 17:52:54.185 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] ✓ Home key pressed successfully
+2025-09-25 17:52:54.185 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Keypress duration: 0.134s
+2025-09-25 17:52:54.187 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Waiting 2 seconds for screen to stabilize...
+2025-09-25 17:52:56.191 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Step 2: Taking screenshot to verify screen dimensions...
+2025-09-25 17:52:56.191 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] About to call: self.screenshot()
+2025-09-25 17:52:56.194 | INFO     | controllers.memu_adapter:log:17 - Taking screenshot to verify screen dimensions...
+2025-09-25 17:52:56.740 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] ✓ Screenshot captured successfully
+2025-09-25 17:52:56.741 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Screenshot duration: 0.545s
+2025-09-25 17:52:56.743 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Image type: <class 'numpy.ndarray'>
+2025-09-25 17:52:56.745 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Image shape: (633, 419, 3)
+2025-09-25 17:52:56.745 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Step 3: Analyzing screenshot dimensions...
+2025-09-25 17:52:56.746 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Extracted dimensions:
+2025-09-25 17:52:56.747 | INFO     | controllers.memu_adapter:log:17 - [SCREEN]   Width: 419px
+2025-09-25 17:52:56.748 | INFO     | controllers.memu_adapter:log:17 - [SCREEN]   Height: 633px
+2025-09-25 17:52:56.749 | INFO     | controllers.memu_adapter:log:17 - [SCREEN]   Channels: 3
+2025-09-25 17:52:56.750 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Expected dimensions:
+2025-09-25 17:52:56.751 | INFO     | controllers.memu_adapter:log:17 - [SCREEN]   Expected width: 419px
+2025-09-25 17:52:56.752 | INFO     | controllers.memu_adapter:log:17 - [SCREEN]   Expected height: 633px
+2025-09-25 17:52:56.753 | INFO     | controllers.memu_adapter:log:17 - Screen dimensions: 419x633 (expected: 419x633)
+2025-09-25 17:52:56.754 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Step 4: Validating dimensions...
+2025-09-25 17:52:56.759 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Width validation: 419 == 419 → True
+2025-09-25 17:52:56.760 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Height validation: 633 == 633 → True
+2025-09-25 17:52:56.761 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Overall validation: True
+2025-09-25 17:52:56.762 | INFO     | controllers.memu_adapter:log:17 - Screen size validation PASSED
+2025-09-25 17:52:56.763 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] ✓ SCREEN SIZE VALIDATION PASSED
+2025-09-25 17:52:56.763 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Dimensions match perfectly: 419x633
+2025-09-25 17:52:56.764 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] Total validation time: 2.714s
+2025-09-25 17:52:56.764 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] RETURNING TRUE
+2025-09-25 17:52:56.765 | INFO     | controllers.memu_adapter:log:17 - Starting Clash Royale...
+2025-09-25 17:52:57.070 | INFO     | controllers.memu_adapter:log:17 - Successfully initialized Clash app
+2025-09-25 17:52:57.071 | INFO     | controllers.memu_adapter:log:17 - Waiting for Clash Royale main menu...
+2025-09-25 17:53:09.075 | INFO     | controllers.memu_adapter:log:17 - Clash main menu detected!
+2025-09-25 17:53:09.075 | INFO     | controllers.memu_adapter:log:17 - Emulator restart completed in 37.75s
+2025-09-25 17:53:09.078 | INFO     | controllers.memu_adapter:log:17 - Initializing MemuEmulatorController took 58.12 seconds
+2025-09-25 17:53:10.281 | INFO     | controllers.memu_adapter:log:17 - [SCREEN] screenshot size = 419x633
